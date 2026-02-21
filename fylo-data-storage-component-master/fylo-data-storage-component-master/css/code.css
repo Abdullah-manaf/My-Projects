@@ -1,0 +1,384 @@
+@media (max-width:375px) {
+    body{
+        background-image: url(../images/bg-mobile.png);
+        background-repeat: no-repeat;
+        color:hsl(243, 100%, 93%);
+        margin: 150px 0;
+    }
+    
+    header {
+        margin: 0 20px;
+        padding: 0;
+    }
+    header .box{
+        width: 320px;
+        height: 150px;
+        background-color:hsl(228, 56%, 26%);
+        border-radius: 10px 100px 10px 10px;
+        padding: 20px 0;
+    }
+
+    header .box .title {
+        width: 200px;
+        height: 40px;
+        background-image: url(../images/logo.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin: 25px 7px;
+    }
+
+    header .box .file-1{
+        width:45px;
+        height:45px;
+        background-image:url(../images/icon-document.svg) ;
+        background-repeat: no-repeat;
+        background-color: hsl(229, 57%, 11%);
+        border-radius: 6px;
+        margin: 25px 38px;
+        background-position: center; 
+    }
+
+    header .box .file-2 {
+        width:45px;
+        height:45px;
+        background-image:url(../images/icon-folder.svg) ;
+        background-repeat: no-repeat;
+        background-color: hsl(229, 57%, 11%);
+        border-radius: 6px;
+        margin: -70px 99px;
+        background-position: center; 
+    }
+
+    header .box .file-3 {
+        width: 45px;
+        height: 45px;
+        background-image: url(../images/icon-upload.svg);
+        background-repeat: no-repeat;
+        background-color: hsl(229, 57%, 11%);
+        border-radius: 6px;
+        margin: 25px 160px;
+        background-position: center;
+    }
+
+    nav {
+        margin: 0 20px;
+        padding:0 ;
+    }
+
+    nav .box-1{
+        width: 320px;
+        height: 150px;
+        background-color: hsl(228, 56%, 26%);
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    nav .box-1 .title-1{
+        padding: 30px 0;
+        color: hsl(229, 7%, 55%);
+
+    }
+
+    nav .box-1 .title-1 .one{
+        color:hsl(243, 100%, 93%);
+        font-weight: bold;
+    }
+
+    nav .box-1 .title-1 .one .two{
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .three {
+        position: relative;
+        top: 2px;
+        font-weight: bold;
+    }
+
+    nav .box-1 .box-2{
+        width: 255px;
+        height: 15px;
+        background-color: hsl(229, 57%, 11%);
+        margin: -30px 32px;
+        border-radius: 10px;
+    }
+
+    nav .box-1 .box-2 .orang {
+                width: 200px;
+        height: 11px;
+        margin: -30px 2px;
+        border-radius: 10px;
+        background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+        position: relative;
+        top: 1.5px;
+    }
+
+     .circle{
+        width: 9px;
+        height: 9px;
+        background-color: hsl(243, 100%, 93%);
+        border-radius: 50%;
+        margin: 21.8px 191px;
+        position: relative;
+    }
+
+    .number{
+        position: relative;
+        top: 40px;
+        right: 80px;
+    }
+
+    .number-1{
+        position: relative;
+        top: 40px;
+        left: 78px;
+    }
+
+    .Left {
+        position: relative;
+        top: 40px;
+        left: 75px;
+        width: 150px;
+        height: 65px;
+        background-color: hsl(243, 100%, 93%);
+        color: hsl(229, 57%, 11%);
+        border-radius: 10px;
+        text-transform: uppercase;
+    }
+
+    .Left .four,.five,.sex{
+        font-weight: bold;
+        position: relative;
+        top: 14px;
+        font-size: 30px;
+    }
+
+    .Left .right{
+        position: relative;
+        top:7px;
+        left: 5px;
+        font-size: 14px;
+        color: hsl(229, 7%, 55%);
+    }
+
+    .Left .five{
+       font-size:35px;
+    }
+
+    .Left .sex {
+        position: relative;
+        top:17px;
+        font-size: 35px;
+    }
+
+}
+/*end mobile*/
+
+/*start desktop*/
+@media (min-width:376px) and (max-width:1440px){
+    body{
+    height: 97vh;
+    background-image: url(../images/bg-desktop.png);
+    background-repeat: no-repeat;
+    color:hsl(243, 100%, 93%);
+    background-position: 0 325px ;
+    background-color: hsl(229, 57%, 11%);
+    display: grid;
+    place-content: center;
+}
+
+header {
+        margin: 0 20px;
+        padding: 0;
+    }
+header .box{
+    width: 320px;
+    height: 150px;
+    background-color:hsl(228, 56%, 26%);
+    border-radius: 10px 100px 10px 10px;
+    padding: 20px 0;
+    position: relative;
+    top: 100px;
+    left: -130px;
+}
+
+header .box .title {
+    width: 200px;
+    height: 40px;
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 25px 7px;
+}
+
+header .box .file-1{
+    width:45px;
+    height:45px;
+    background-image:url(../images/icon-document.svg) ;
+    background-repeat: no-repeat;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 6px;
+    margin: 25px 38px;
+    background-position: center; 
+}
+
+header .box .file-2 {
+    width:45px;
+    height:45px;
+    background-image:url(../images/icon-folder.svg) ;
+    background-repeat: no-repeat;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 6px;
+    margin: -70px 99px;
+    background-position: center; 
+}
+
+header .box .file-3 {
+    width: 45px;
+    height: 45px;
+    background-image: url(../images/icon-upload.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 6px;
+    margin: 25px 160px;
+    background-position: center;
+}
+
+nav {
+        margin: 0 20px;
+        padding:0 ;
+        position: relative;
+        top: -65px;
+        left: 220px;
+    }
+
+    nav .box-1{
+        width: 520px;
+        height: 150px;
+        background-color: hsl(228, 56%, 26%);
+        border-radius: 10px;
+        
+       
+    }
+
+    nav .box-1 .title-1{
+        padding: 40px 27px;
+        color: hsl(229, 7%, 55%);
+
+    }
+
+    nav .box-1 .title-1 .one{
+        color:hsl(243, 100%, 93%);
+        font-weight: bold;
+    }
+
+    nav .box-1 .title-1 .one .two{
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .three {
+        position: relative;
+        top: 2px;
+        font-weight: bold;
+    }
+
+    nav .box-1 .box-2{
+        width: 455px;
+        height: 15px;
+        background-color: hsl(229, 57%, 11%);
+        margin: -43px 32px;
+        border-radius: 10px;
+    }
+
+    nav .box-1 .box-2 .orang {
+        width: 350px;
+        height: 11px;
+        margin: -30px 2px;
+        border-radius: 10px;
+        background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+        position: relative;
+        top: 1.5px;
+        
+    }
+
+     .circle{
+        width: 9px;
+        height: 9px;
+        background-color: hsl(243, 100%, 93%);
+        border-radius: 50%;
+        margin: 21.8px 191px;
+        position: relative;
+        left: 150px;
+    }
+
+    .number{
+        position: relative;
+        top: 55px;
+        right: -30px;
+    }
+
+    .number-1{
+        position: relative;
+        top: 55px;
+        left: 390px;
+    }
+
+    .Left {
+        position: relative;
+        top: -120px;
+        left: 335px;
+        width: 150px;
+        height: 65px;
+        background-color: hsl(243, 100%, 93%);
+        color: hsl(229, 57%, 11%);
+        border-radius: 10px; 
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .Left::before{
+        content: "";
+        background-color: transparent;
+        width: 0px;
+        height: 0px;
+        position:absolute;
+        top: 55px;
+        left: 110px;
+        border-top:hsl(243, 100%, 93%) solid 20px ;
+        border-left:transparent solid 20px;
+        border-right:hsl(243, 100%, 93%) solid 20px;
+        border-bottom:transparent solid 20px;
+    }
+
+    .Left .four,.five,.sex{
+        font-weight: bold;
+        position: relative;
+        top: 14px;
+        font-size: 30px;
+    }
+
+    .Left .right{
+        position: relative;
+        top:7px;
+        left: 5px;
+        font-size: 14px;
+        color: hsl(229, 7%, 55%);
+    }
+
+    .Left .five{
+       font-size:35px;
+    }
+
+    .Left .sex {
+        position: relative;
+        top:17px;
+        font-size: 35px;
+    }
+
+
+
+
+}

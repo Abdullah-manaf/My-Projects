@@ -1,0 +1,188 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+@media (max-width:375px){
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: hsl(30, 38%, 92%) ;
+}
+ 
+header {
+  background-color: hsl(0, 0%, 100%);
+  margin: 20px 10px;
+  border-radius: 10px;
+
+}
+
+header .pic {
+  height: 245px;
+  background-image: url(../images/image-product-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0 ;
+}
+
+header nav {
+    padding: 10px 32.5px 0 32.5px;
+}
+
+header nav .logo{
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color:  hsl(228, 12%, 48%);
+}
+
+header nav h2{
+   margin: -10px 0 0 0;
+   text-transform:capitalize;
+   font-size: 24.7px;
+}
+
+header nav p {
+  color:  hsl(228, 12%, 48%);
+  font-size: 16px;
+  line-height: 21px;
+}
+
+header .price .after{
+   font-size:30px;
+   color:hsl(158, 36%, 37%);
+   font-weight: bold;
+}
+
+header .price .before{
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    top: -5px;
+    text-decoration: line-through;
+}
+
+header .price button img {
+  margin:0 10px 0 0;
+}
+
+header .price button {
+    padding: 15px 81.4px;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 20px 0;
+    border: none;
+}
+
+header .price button:hover {
+  background-color:hsl(158, 42% ,18%);
+  cursor: pointer;
+}
+
+}
+
+/* end mobile */
+
+@media (min-width:376px) and (max-width:1440px){
+
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 38%, 92%) ;
+}
+ 
+header {
+   max-width: 600px;
+   display: flex;
+   flex-direction: row;
+   background-color: hsl(0, 0%, 100%);
+   border-radius: 10px;
+}
+
+header .pic {
+  height:454px;
+  width:50%;
+  background-image: url(../images/image-product-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  border-radius: 10px 0 0 10px;
+}
+header nav {
+  width:50%;
+  padding: 0 30px;
+  float: right;
+  margin: 15px 0;
+}
+
+header nav .logo{
+   letter-spacing: 5px;
+   color:hsl(228, 12%, 48%);
+   text-transform: uppercase;
+}
+
+header nav h2 {
+   text-transform: capitalize;
+   font-size: 35px;
+   margin: 0;
+}
+
+header nav .text {
+  color: hsl(228, 12%, 48%);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+header .price .after {
+   font-size: 28px;
+   font-weight: bold ;
+   color: hsl(158, 36%, 37%);
+}
+
+header .price .before {
+   font-size: 14px;
+   position: relative;
+   top:-2.5px;
+   margin-left: 20px;
+   font-weight: 100;
+   text-decoration: line-through;
+}
+
+header button {
+  margin: 18px 0;
+  padding: 15px 60px;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+header button:hover {
+  background-color: hsl(158, 42% ,18%);
+  cursor: pointer;
+}
+
+header button img {
+   margin:0 10px 0 0;
+}
+
+
+
+}

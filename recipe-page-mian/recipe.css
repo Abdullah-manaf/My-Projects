@@ -1,0 +1,425 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@media (min-width:376px) and (max-width:1440px)
+{
+
+/*poblic*/
+
+body 
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color:  antiquewhite;
+    margin: 150px 225px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+.container 
+{
+    width: 1440px;
+    margin: 20px auto;
+    
+}
+
+/* Start Header */
+
+header 
+{
+    min-width: 100px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+header .logo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+header .logo p 
+{
+    color: hsl(30, 10%, 34%);
+    font-size: 20px;
+}    
+header nav 
+{
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    
+}
+
+header nav p 
+{
+    margin-left: 20px;
+    color:  hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+
+header nav ul 
+{
+    color: black;
+    list-style-type:square;
+    padding-left: 29px;  
+}
+
+header nav ul li
+{
+    padding-left: 10px;
+    margin: 10px;
+    font-weight: bold;
+    
+}
+
+header nav ul li span
+{
+    color: hsl(30, 10%, 34%);
+    font-weight: 100;
+}
+
+
+header main .aside
+{
+    color:hsl(14, 45%, 36%);
+}
+
+header main .aside h3 
+{
+    font-size: 22px;
+    margin: 20px 0 -10px 0;
+}
+
+header main .aside ul 
+{
+    padding-right: 10px;
+    margin-left: -22px;
+}
+
+header main .aside ul li
+{
+    padding-left: 5px;
+    padding-top: 10px;
+    list-style-type: square ;
+    color: hsl(30, 10%, 34%);
+}
+
+header main .aside ul li::marker
+{
+    color: hsl(14, 45%, 36%);
+}
+
+header main hr 
+{
+    margin: 40px 0 40px;
+    color: hsl(30, 10%, 34%);
+}
+
+
+
+header main .content h3 
+{
+    color:hsl(14, 45%, 36%) ;
+    font-size: 22px;
+}
+
+header main .content ul
+{
+   list-style-type: decimal;
+   padding-left: 20px;
+}
+
+header main .content ul li
+{
+    padding-left: 8px;
+    padding-top: 10px;
+}
+
+header main .content ul li::marker
+{
+    color: hsl(14, 45%, 36%);
+}
+
+header main .content ul li span 
+{
+    color: hsl(30, 10%, 34%);
+}
+
+header main .section 
+{
+    margin: -10px 0 0 0;
+}
+header main .section h3
+{
+    font-size: 22px;
+    color: hsl(14, 45%, 36%);
+}
+
+header main .section p {
+    padding: 5px 0 10px;
+}
+
+header main .section ul
+{
+    list-style-type: none;
+    color: hsl(30, 10%, 34%);
+}
+
+header main .section ul li
+{
+    margin-left: -10px;
+}
+
+header main .section ul li .cal
+{
+    margin-left: 216px;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+header main .section ul li .car
+{
+    margin-left: 236px;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+header main .section ul li .pro 
+{
+    margin-left: 226px;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+header main .section ul li .fat 
+{
+    margin-left: 256px;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+header main .section ul #under-line {
+    margin: 15px 0 15px -40px;
+ 
+}
+/* End Header */
+}
+/*End desktop*/
+
+
+
+/*Start mobile*/
+@media (max-width:375px )
+{
+body{ 
+    
+    display: flex;
+    justify-content: center;
+    background-color:  antiquewhite;
+    margin: 150px 225px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+    
+
+
+.container {
+    width: 375px;
+    margin: 0;
+}
+
+.container header {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.container header .logo img {
+    width: 100%;
+}
+
+.container header .logo h1 {
+    padding: 15px  30px;
+}
+
+.container header .logo p {
+    margin:-10px 34px;
+    color: hsl(30, 10%, 34%);
+}
+
+.container header nav
+{
+    background-color: hsl(330, 100%, 98%);
+    padding: 5px;
+    margin: 40px 34px;
+}
+
+.container header nav p 
+{
+    
+    color:  hsl(332, 51%, 32%);
+    font-weight: bold;
+    padding:0 20px;
+
+}
+
+.container header nav ul 
+{
+    color: black;
+    list-style-type:square;
+    padding-left:29px;
+}
+
+.container header nav ul li
+{
+    padding-left: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.container header nav ul li span
+{
+    color: hsl(30, 10%, 34%);
+    font-weight: 100;
+}
+
+.container header main .aside
+{
+    color:hsl(14, 45%, 36%);
+    margin: 10px 34px;
+}
+
+.container header main .aside h3 
+{
+    font-size: 22px;
+    margin: 20px 0 -10px 0;
+}
+
+.container header main .aside ul 
+{
+    padding-right: 10px;
+    margin-left: -22px;
+}
+
+.container header main .aside ul li
+{
+    padding-left: 5px;
+    padding-top: 10px;
+    list-style-type: square ;
+    color: hsl(30, 10%, 34%);
+}
+
+.container header main .aside ul li::marker
+{
+    color: hsl(14, 45%, 36%);
+}
+
+.container header main .s
+{
+    margin: 40px 0 40px;
+    color: hsl(30, 10%, 34%);
+}
+
+.container header main .content{
+    margin: 10px 34px;
+   
+}
+
+.container header main .content h3 
+{
+    color:hsl(14, 45%, 36%) ;
+    font-size: 22px;
+    margin: 10px 0px;
+}
+
+
+.container header main .content ul
+{
+   list-style-type: decimal;
+   padding-left: 20px;
+}
+
+.container header main .content ul li
+{
+    padding-left: 8px;
+    padding-top: 10px;
+}
+
+.container header main .content ul li::marker
+{
+    color: hsl(14, 45%, 36%);
+}
+
+.container header main .content ul li span 
+{
+    color: hsl(30, 10%, 34%);
+}
+
+.container header main .section 
+{
+    margin: 10px 34px;
+}
+
+.container header main .section h3
+{
+    font-size: 22px;
+    color: hsl(14, 45%, 36%);
+}
+
+.container header main .section p {
+    padding: 5px 0 10px;
+}
+
+header main .section ul
+{
+    list-style-type: none;
+    color: hsl(30, 10%, 34%);
+}
+
+header main .section ul li
+{
+    margin-left: -10px;
+    padding-bottom: 10px;
+}
+
+
+header main .section ul li .cal
+{
+    margin-left:75px;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+   
+}
+
+header main .section ul li .car
+{
+    margin-left: 90px;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+   
+}
+
+header main .section ul li .pro 
+{
+    margin-left: 80px;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+header main .section ul li .fat 
+{
+    margin-left: 108px;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+header main .section ul #under-line {
+    margin: 0 0 0 -40px;
+    padding: 5px;
+ 
+}
+
+}
