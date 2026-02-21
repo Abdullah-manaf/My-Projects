@@ -1,0 +1,249 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*start mobile*/
+@media (max-width: 375px)
+{
+    
+    body {
+    
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    font-family: "Inter";
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    header{
+        width: 65%;
+        margin: 20px;
+    }
+
+    header .parent {
+        text-align: center;
+        background-color: hsl(244, 38%, 16%);
+        border-radius: 6px;
+    }
+
+    header .parent .one {
+        width: 224px;
+        height: 164px;
+        background-color: hsl(277, 64%, 61%);
+        position: absolute;
+        top: 12px;
+        left: 68px;
+        opacity: 0.7;
+        border-radius: 6px 6px 0 0;
+    }
+  
+    header .parent img {
+        width: 100%;
+        border-radius:6px 6px 0 0;
+    }
+
+    header .parent .title  {
+        margin: 0 15px;
+        padding: 8px;
+    }
+
+    header .parent .title h3{
+        color: hsl(0, 0%, 100%);
+        font-size: 20px;
+        margin: 20px 0 0;
+    }
+
+    header .parent .title h3 span {
+        color: hsl(277, 64%, 61%);
+        margin: 0 0 0 5px;
+    }
+
+    header .parent .title p{
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 11.5px;
+        line-height: 17px;
+    }
+    
+    header .parent .title div span {
+        display: block;
+    }
+
+    header .parent .title div {
+        padding: 20px;
+        text-transform: uppercase;
+    }
+
+    header .parent .title .a {
+        color:  hsl(0, 0%, 100%);
+        font-weight: bold;
+        padding: 0 0 5px 0;
+    }
+    
+    header .parent .title .b {
+        color:  hsla(0, 0%, 100%, 0.6);
+        font-size: 9px;
+        padding: 0 0 20px ;
+
+    }
+
+    header .parent .title .c{
+        color:  hsl(0, 0%, 100%);
+        font-weight: bold;
+        padding: 0 0 5px 0;
+    }
+    
+    header .parent .title .d {
+        color:  hsla(0, 0%, 100%, 0.6);
+        font-size: 9px;
+        padding: 0 0 20px ;
+    }
+
+    header .parent .title .e{
+        color:  hsl(0, 0%, 100%);
+        font-weight: bold;
+        padding: 0 0 5px 0;
+    }
+    
+    header .parent .title .f {
+        color:  hsla(0, 0%, 100%, 0.6);
+        font-size: 9px;
+        padding: 0 0 20px ;
+    }
+} 
+/*end mobile*/
+
+/*start desktop*/
+@media (min-width: 376px) and (max-width: 1440px)
+{
+  body {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: hsl(233, 47%, 7%);
+    margin:  0 250px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  header{
+    width: 100%;
+    
+  }
+
+  header .parent {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color:  hsl(244, 38%, 16%);
+    border-radius: 6px 0 0 6px;
+  }
+
+  header .parent .one {
+        width: 430px;
+        height: 378px;
+        background-color: hsl(277, 64%, 61%);
+        position: absolute;
+        top: 113px;
+        left: 678px;
+        opacity: 0.7;
+        border-radius: 0 6px 6px 0;
+   }
+
+  header .parent img {
+    width: 50%;
+    border-radius: 0 6px 6px 0;
+  }
+  
+  header .parent .title{
+    display: flex;
+    flex-direction: column;
+    margin:0 0 0 50px;
+    
+  }
+
+  header .parent .title h3{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    margin: 50px 50px 0 15px;
+    padding: 0 0px 0 0;
+  }
+  
+  header .parent .title h3 span{
+    color: hsl(277, 64%, 61%);
+    margin-left: 5px;
+  }
+
+  header .parent .title p {
+    font-size: 13px;
+    padding:0 50px 0 0;
+    line-height: 22px;
+    color:hsla(0, 0%, 100%, 0.6);
+    margin:20px 0 0 15px;
+  }
+
+
+    header .parent .title div {
+        padding: 0px;
+        margin: 50px 0 0 15px;
+        text-transform:uppercase;
+        
+    }
+
+   
+
+    header .parent .title .a {
+        color:  hsl(0, 0%, 100%);
+        font-weight: bold;
+        display: block;
+    }
+    
+    header .parent .title .b {
+        color:  hsla(0, 0%, 100%, 0.6);
+        font-size: 13px;
+        padding: 0 0 20px ;
+        font-size: 9px;
+    }
+
+    header .parent .title .c{
+        color:  hsl(0, 0%, 100%);
+        font-weight: bold;
+        display: block;
+        
+    }
+    
+    header .parent .title .d {
+        color:  hsla(0, 0%, 100%, 0.6);
+        font-size: 13px;
+        padding: 0 0 20px ;
+        font-size: 9px;
+
+    }
+
+    header .parent .title .c,.d{
+        position: relative;
+        top: -35px;
+        left: 110px;
+    }
+
+    header .parent .title .e{
+        color:  hsl(0, 0%, 100%);
+        font-weight: bold;
+        display: block;
+    }
+    
+    header .parent .title .f {
+        color:  hsla(0, 0%, 100%, 0.6);
+        font-size: 13px;
+        padding: 0 0 20px ;
+        font-size: 9px;
+    }
+
+    header .parent .title .e,.f{
+        position: relative;
+        top: -70px;
+        left: 220px;
+    }
+}
+/*end desktop*/
